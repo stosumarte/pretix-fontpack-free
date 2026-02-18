@@ -530,4 +530,27 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/space-mono-v10-latin-ext_latin-700italic.woff2",
             },
         },
+        "Courier Condensed": {
+            "regular": {
+                "truetype": basepath + "/CourierCondensed.ttf",
+                "woff": basepath + "/CourierCondensed.woff",
+                "woff2": basepath + "/CourierCondensed.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/CourierCondensed-Bold.ttf",
+                "woff": basepath + "/CourierCondensed-Bold.woff",
+                "woff2": basepath + "/CourierCondensed-Bold.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/CourierCondensed-Italic.ttf",
+                "woff": basepath + "/CourierCondensed-Italic.woff",
+                "woff2": basepath + "/CourierCondensed-Italic.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/CourierCondensed-BoldItalic.ttf",
+                "woff": basepath + "/CourierCondensed-BoldItalic.woff",
+                "woff2": basepath + "/CourierCondensed-BoldItalic.woff2",
+            },
+        },
+
     }
